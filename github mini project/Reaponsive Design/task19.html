@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task no19</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    .textcolor{
+        color: black ;
+    }
+    .border1{
+      font-size: 16px;
+    }
+    .border2{
+      border-bottom: 1px solid gray;
+    }
+    .black{
+      background-color: black;
+      padding-left: 400px;
+      width: 1500px;
+      color: white;
+    }
+    
+    .bg{
+      background-color: #F9F8FD;
+     
+    }
+    
+    
+    .bg2{
+      background-color: #fafafb;
+      border-top: 5px solid white;
+      padding-left: 70px;
+      padding-right: 20px;
+      padding-top: 50px;
+      padding-bottom: 60px;
+    }
+    .font16{
+      font-size: 16px;
+    }
+    .font14{
+      font-size: 16px;
+      list-style-type: none;
+    }
+    
+    
+    .col12{
+      text-align: center;
+    }
+    
+    
+    .st{
+      font-size: 36px;
+    }
+    
+    .hcol{
+      color:#ea4c89 ;
+      
+    }
+     .text{
+        text-align: center;
+        
+    }
+     @media only screen and (max-width: 320px) { 
+  #fadeshow1 { 
+    display: none; 
+  } 
+}
+.back{
+    color: #ea4c89;
+    font-size: 16px;
+}
+.font50{
+    font-size: 60px;
+}
+.font20{
+    font-size: 20px;
+}
+.mar{
+    margin-top: 50px;
+}
+.but{
+    background-color: #ea4c89;
+    color: white;
+}
+.font30{
+    font-size: 50px;
+}
+.tecol{
+  text-align: center;
+  color: #ea4c89;
+}
+.mediapadd{
+  padding-left: 100px;
+}
+.paddtop{
+  padding-top: 100px;
+}
+
+.im{
+  padding-left: 300px;
+  padding-top: 400px;
+}
+.padd{
+  padding-top: 250px;
+}
+.cwidth{
+  width: 300px;
+}
+.border3{
+  border-top: 50px solid white;
+  border-bottom: 50px solid white;
+  border-left: 50px solid white;
+}
+.bor4{
+  border-left:50px solid white ;
+  border-top: 50px solid white;
+}
+.imgw{
+  width: 100%;
+}
+    
+</style>
+</head>
+<body>
+  
+<div class="container-fluid">
+  <div class="row border2">
+    <div class="toast" data-autohide="false">
+      <div class="toast-header black">
+        <p>🎟 Ever wanted to create your own font? Sign up to our live & interactive workshop with Dribbble’s co-founder Dan Cederholm on December 15 🎟</p>
+        <button type="button" class="ml-2 mb-1 close padd" data-dismiss="toast">&times;</button>
+      </div>
+       </div>
+       <script>
+        $(document).ready(function(){
+          $('.toast').toast('show');
+        });
+        </script>
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg bg-transparent navbar-light">
+            
+            <!-- <div >
+              <span>dribble</span>
+            </div> -->
+            
+            
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div >
+              <h4 class= "navbar-brand hcol" id="fadeshow1" href="#">Dribbble</h4>
+
+            </div>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link textcolor border1" href="#">Inspriration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link textcolor border1" href="#">find Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link textcolor border1" href="#">Learn Desigh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textcolor border1 " href="#">Go pro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textcolor border1" href="#">Marketplace</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textcolor border1" href="#">Higher Designer</a>
+                  </li>
+                  
+              </ul>
+            </div>
+            
+            
+              <a href="#" class="btn btn-link" role="button">Sing in / Sing up</a>
+
+                <button type="button" class="btn btn-danger">Start your trial</button>
+
+            
+          </nav>
+      </div>
+  </div>
+
+  <div class="row mar">
+      <div class="col-lg-6 col-md-6 col-12">
+      <h6 class="back">Dribbble Pro</h6>
+      <h1 class="font50"><b>Invest in your design career with Dribbble Pro.</b></h1>
+      <p class="font20">With Pro and Pro Business you get the tools you need to build your design career.</p>
+      <button type="button" class="btn but"><b>Learn More</b></button>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-12">
+        <img src="assest/intro@1x-25211ab5eebae1081e883033972750d495c2a0d40bc807ce3ada22f0fe8954bf.jpg" class="rounded-lg imgw" alt="">
+
+      </div>
+
+  </div>
+
+  <div class="row border3">
+    <div class="col-lg-3 col-md-3 col-6">
+ <svg xmlns="http://www.w3.org/2000/svg" width="72" height="74" viewBox="0 0 72 74" fill="none" class="icon">
+<path d="M13.2002 74L23.7974 43.4L36.0002 47.8625L27.3298 74L22.5129 68.5813L13.2002 74Z" fill="#787EFF"></path>
+<path d="M58.7998 74L48.2026 43.4L35.9998 47.8625L44.6702 74L49.4871 68.5813L58.7998 74Z" fill="#787EFF"></path>
+<path d="M31.704 2.81054C34.0578 0.393695 37.9414 0.393694 40.2952 2.81054C41.8332 4.38975 44.1434 4.98925 46.2635 4.38523C49.4831 3.46791 52.8739 5.38252 53.6882 8.62975C54.2226 10.7606 55.9233 12.4289 58.0569 12.9525C61.2998 13.7484 63.2803 17.0994 62.3469 20.3055C61.7341 22.4104 62.347 24.6826 63.934 26.1951C66.3636 28.5107 66.3636 32.3917 63.934 34.7072C62.347 36.2197 61.7341 38.492 62.3469 40.5969C63.2803 43.8029 61.2998 47.1539 58.0569 47.9498C55.9233 48.4734 54.2226 50.1418 53.6882 52.2726C52.8739 55.5198 49.4831 57.4345 46.2635 56.5171C44.1434 55.9131 41.8332 56.5126 40.2952 58.0918C37.9414 60.5087 34.0578 60.5087 31.704 58.0918C30.166 56.5126 27.8558 55.9131 25.7358 56.5171C22.5161 57.4345 19.1254 55.5198 18.311 52.2726C17.7766 50.1418 16.0759 48.4734 13.9424 47.9498C10.6995 47.1539 8.71887 43.8029 9.65229 40.5969C10.2651 38.492 9.65224 36.2197 8.06525 34.7072C5.63566 32.3917 5.63566 28.5107 8.06525 26.1951C9.65224 24.6826 10.2651 22.4104 9.65229 20.3055C8.71887 17.0994 10.6995 13.7484 13.9424 12.9525C16.0759 12.4289 17.7766 10.7606 18.311 8.62975C19.1254 5.38252 22.5161 3.46791 25.7358 4.38523C27.8558 4.98925 30.166 4.38975 31.704 2.81054Z" fill="#FFD469"></path>
+<ellipse cx="35.6756" cy="30.7718" rx="19.116" ry="18.9103" fill="#FEBA57"></ellipse>
+</svg>
+
+        <h4>The #1 Creative Community Online:</h4>
+        <p>With millions of visitors every month, Dribbble is where designers find new opportunities</p>
+    
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none" class="icon">
+<ellipse cx="32.4" cy="32.8128" rx="32.4" ry="32.0513" fill="#FEBA57"></ellipse>
+<ellipse cx="32.5658" cy="32.9512" rx="19.9662" ry="19.7513" fill="#ED7EA6"></ellipse>
+<path d="M34.8971 37.4198L45.7833 70.72C46.3106 72.3013 48.4506 72.4563 49.195 70.968L56.1423 57.0464C56.3284 56.6433 56.6385 56.3333 57.0417 56.1473L70.9675 49.202C72.4562 48.4578 72.3011 46.2874 70.7194 45.7913L37.4093 34.9083C35.8896 34.3812 34.4008 35.8695 34.8971 37.4198Z" fill="#026D7B"></path>
+</svg>
+
+          <h4>Create an Instant Portfolio in Minutes:</h4>
+          <p>When you share your work on Dribbble, your Playbook Portfolio gets automatically updated.</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-6">
+          <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none" class="icon">
+<path d="M52.8002 69.0001L10.2002 49.8878V22.4138L52.8002 3.6001V69.0001Z" fill="#787EFF"></path>
+<ellipse cx="61.7996" cy="36" rx="10.2" ry="10.2" fill="#FEBA57"></ellipse>
+<rect y="20.3999" width="10.8" height="31.8" rx="5.4" fill="#4BB7BF"></rect>
+<rect x="51" width="10.8" height="72" rx="5.4" fill="#4BB7BF"></rect>
+</svg>
+
+          <h4>Promote your goods seamlessly:</h4>
+          <p>When you create a Dribbble account, you can easily promote and sell your design goods.</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-6">
+  
+          <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none" class="icon">
+<ellipse cx="13.8004" cy="8.4" rx="8.4" ry="8.4" fill="#FEBA57"></ellipse>
+<ellipse cx="22.2008" cy="30.6" rx="8.4" ry="8.4" fill="#026D7B"></ellipse>
+<ellipse cx="36.0006" cy="16.7999" rx="8.4" ry="8.4" fill="#787EFF"></ellipse>
+<ellipse cx="45.6002" cy="34.8" rx="8.4" ry="8.4" fill="#FEBA57"></ellipse>
+<circle cx="58.2008" cy="12.0001" r="8.4" fill="#4BB7BF"></circle>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25.4921 62.6141L6.8225 47.9141C2.34806 44.391 4.8393 37.2 10.5343 37.2H61.0633C66.7736 37.2 69.2554 44.4231 64.751 47.9329L45.8849 62.6329C45.7065 62.7719 45.5211 62.9001 45.3297 63.0173V66C45.3297 69.3137 42.6434 72 39.3297 72H32.0545C28.7408 72 26.0545 69.3137 26.0545 66V63.007C25.8605 62.8873 25.6726 62.7562 25.4921 62.6141Z" fill="#ED7EA6"></path>
+</svg>
+
+          <h4>Exclusive Access to 1000's of Leads:</h4>
+          <p>Never worry about finding new clients with access to 1000's new freelance projects every month.</p>
+    </div>
+
+  </div>
+
+  <div class="row border3">
+    <div class="col-lg-12 col-md-12 co-12 text ">
+      <h1 class="font30">Build your brand  with <br> Dribbble Pro &amp; Pro Business</h1>
+    </div>
+  </div>
+  <div class="row mar">
+      <div class="col-lg-6 col-md-6 col-12">
+        <img src="assest/build-your-brand@1x-b4666fd0a8b403b8ffd4de90e454a52bc2f01b490a1bd3a58175a9cdd1810d3f.jpg" class="rounded-lg imgw" alt="">
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-12">
+          <p class="font20">Want to unlock the key to the next stage of your career in design? Whether you're freelancing or need an always up to date portfolio, Dribbble Pro has something for you.</p>
+        <p class=" font20">With Dribbble Pro & Pro Business you can create an Instant portfolio, receive a daily newsletter with the latest freelance design jobs, and win new projects with Pitch- your very own personalized video that lives on your Dribbble profile.</p>           
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-lg-12 col-md-12 col-12 text">
+          <h2>Level up your design career with Dribbble Pro</h2>
+          <p class="font20">
+            Whether you're looking to build your portfolio, find your next freelance client or showcase your teams work -- we have a plan for you.
+          </p>
+        </div>
+      </div>
+  
+  
+ <div class="row border3">
+   <div class="col-lg-3"></div>
+   <div class="col-lg-3 col-md-12 col-12 ">
+    <div class="card cwidth" >
+      <h4 class="text">Pro</h4>
+      <p class="text">Upgrade your social portfolio with <br>a stunning profile &amp; enhanced shots.</p>
+      <h1 class="text">₹227</h1>
+      <p class="text">$3 USD per month, paid annually</p>
+      <p class="tecol">Switch to monthly billing</p>
+      <button type="button" class="btn-box">Get Started</button>
+      
+      <li>
+        <span>Upgraded profile</span>
+      </li>
+      <li >
+        <span>Multi-shot &amp; video</span>
+      </li>
+      <li>
+        <span>Instant creative portfolio</span>
+      </li>
+      <li>
+        <span>Sell goods</span>
+      </li>
+    </div>
+    
+   </div>
+   <div class="col-lg-6 col-md-12 col-12">
+    <div class="card cwidth" >
+      <h4 class="text">Pro Business</h4>
+      <p class="text">Perfect for freelancers, agencies, and <br> design teams.</p>
+      <h1 class="text">₹1199</h1>
+      <p class="text">$15 USD per month, paid annually</p>
+      <p class="tecol">Switch to monthly billing</p>
+      <button type="button" class="btn-box">Get Started</button>
+      
+      <li>
+        <span>Pro benefits plus</span>
+      </li>
+      <li >
+        <span>‘Hire me/us’ button on shots</span>
+      </li>
+      <li>
+        <span>Freelance job board exclusive</span>
+      </li>
+      <li>
+        <span>Daily freelance projects email</span>
+      </li>
+      <li>
+        <span>Team profile and members</span>
+      </li>
+      <li>
+        <span>Hiring search listing priority placement</span>
+      </li>
+      <li>
+        <span>Introduce yourself with Pitch video</span>
+      </li>
+    </div>
+  </div>
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-12 col-md-12 col-12 text">
+    <h2>What top designers are saying</h2>
+   </div>
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-4 col-md-4 col-12">
+     <h5 class="text">“Just hit six weeks with a startup <br>I got connected with through <br>Dribbble.”</h5>
+     <div class="media mediapadd">
+      <img src="assest/Greg_Corby@1x-6c178e9474a4d08c8c5f4beaedda17413d530269cf58b366251deb3ed9cf1ac1.png" alt="" width="56px" height="56px">
+      <div class="media-body">
+        <h4>Greg Corby </h4>
+        <p>Freelance graphic design </p>      
+      </div>
+    </div>
+     
+   </div>
+   <div class="col-lg-4 col-md-4 col-12">
+    <h5 class="text">“Just hit six weeks with a startup <br>I got connected with through <br>Dribbble.”</h5>
+    <div class="media mediapadd">
+     <img src="assest/Greg_Corby@1x-6c178e9474a4d08c8c5f4beaedda17413d530269cf58b366251deb3ed9cf1ac1.png" alt="" width="56px" height="56px">
+     <div class="media-body">
+       <h4>Greg Corby </h4>
+       <p>Freelance graphic design </p>      
+     </div>
+   </div>
+   </div>
+
+   <div class="col-lg-4 col-md-4 col-12">
+    <h5 class="text">“Just hit six weeks with a startup <br>I got connected with through <br>Dribbble.”</h5>
+    <div class="media mediapadd">
+     <img src="assest/Greg_Corby@1x-6c178e9474a4d08c8c5f4beaedda17413d530269cf58b366251deb3ed9cf1ac1.png" alt="" width="56px" height="56px">
+     <div class="media-body">
+       <h4>Greg Corby </h4>
+       <p>Freelance graphic design </p>      
+     </div>
+   </div>
+   </div>
+
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-12 col-md-12 col-12 text">
+     <h1 ><b>The easiest way to build your <br>portfolio online </b></h1>
+   </div>
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-6 col-md-6 col-12 ">
+    <span class="back">Dribbble Pro</span>
+    <h2>The always up-to-date portfolio</h2>
+    <p class="font20">
+      When you share your work on Dribbble, your personal self-hosted Playbook Portfolio is automatically updated.
+    </p>
+    <p class="font20">
+      Your portfolio can always be ready for new opportunities, just like you.
+    </p>
+    <p class="font20">
+      With an always up-to-date portfolio, you can get back to what you love doing: designing.
+    </p>
+   </div>
+   <div class="col-lg-6 col-md-6 col-12">
+   <img src="assest/uptodate-portfolio@1x-a21c25e198199fd0ca23d13a5351d9f9db25294cea73cdcd5b33a17a78388e68.jpg" class="rounded imgw" alt="">
+   </div>
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-6  col-md-6 col-12 ">
+    <span class="back">Dribbble Pro</span>
+    <h2>List your goods for sale on Dribbble</h2>
+    <p class="font20">
+      Reach millions of designers with your digital goods right now. Through our sister site - Creative Market, Dribbble Pro subscribers are pre-approved to set up a shop. Once your shop is open, your digital goods will reach millions of designers, on Dribbble’s marketplace and Creative Market. All from one place.
+    </p>
+    <a class="cta-section" target="_blank" href="https://creativemarket.com/sell?u=dribbble&amp;utm_source=Dribbble&amp;utm_medium=pro_landing&amp;utm_campaign=marketplace&amp;uid=3fc81276-9fff-4415-8b9f-de281d992629">
+      <p>Open a shop <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" role="img" class="icon fill-current">
+        <path d="M12.9498 2.05017C13.5021 2.05017 13.9498 2.49789 13.9498 3.05017V11.7168C13.9498 12.2691 13.5021 12.7168 12.9498 12.7168C12.3975 12.7168 11.9498 12.2691 11.9498 11.7168V5.46438L3.7574 13.6568C3.36688 14.0473 2.73371 14.0473 2.34319 13.6568C1.95266 13.2662 1.95266 12.6331 2.34319 12.2426L10.5356 4.05017H4.28312C3.73084 4.05017 3.28312 3.60246 3.28312 3.05017C3.28312 2.49789 3.73084 2.05017 4.28312 2.05017L12.9498 2.05017Z"></path>
+        </svg></p>
+      </a>
+</div>
+   <div class="col-lg-6 col-md-6 col-12 ">
+   <img src="assest/creative-market-cta-desktop-x1-32130163b929005e7a4582f957812fe5c995a8f339065472ad56aa5a2aaba13e.png" class="rounded" alt="Cinque Terre">
+   </div>
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-6 col-md-6 col-12">
+  <div >
+    <h5>“I upgraded my Dribbble account to the Pro version. Absolutely <br>loving the super clean look of the Playbook feature.”</h5>
+    <div class="media mediapadd">
+      <img src="assest/Mikko_Ant-Wuorinen@1x-a6ec2e1da474137c1ed1691e959afee0ac27cbd71cd88c0b4c0cd7706a71494c.png" alt="" width="56px" height="56px">
+      <div class="media-body">
+        <h4>Mikko Ant-Wuorinen </h4>
+        <p>Illustrator & Animator</p>      
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-lg-6 col-md-6 col-12">
+  
+    <h5>“I upgraded my Dribbble account to the Pro version. Absolutely <br>loving the super clean look of the Playbook feature.”</h5>
+    <div class="media mediapadd">
+      <img src="assest/Mikko_Ant-Wuorinen@1x-a6ec2e1da474137c1ed1691e959afee0ac27cbd71cd88c0b4c0cd7706a71494c.png" alt="" width="56px" height="56px">
+      <div class="media-body">
+        <h4>Mikko Ant-Wuorinen </h4>
+        <p>Illustrator & Animator</p>      
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-12 col-md-12 col-12 text">
+     <h1>Pro Business: For Freelancers & Teams</h1>
+     </div>
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-6 col-md-6 col-12">
+    <img src="assest/pro-business@1x-c9d9461861c0cbe3eae1081893a0b5edae5387e975827e80876137e6a7ad2fff.jpg" class="rounded-lg imgw" alt="">
+
+   </div>
+   <div class="col-lg-3 col-md-6 col-12 ">
+    <p class="font20">
+      Whether you're a freelancer or run your own agency, Pro Business has something for you.
+    </p>
+    <p class="font20">
+      Receive our <a href="https://www.dribbble.com/projects?utm_source=pro-landing&amp;utm_medium=text&amp;utm_campaign=&amp;utm_content=freelance-design-jobs-2&amp;utm_term=">daily freelance design projects newsletter</a>, access of our freelance design jobs board, build your company page and invite your entire team to share together on Dribbble.
+    </p>
+   </div>
+   <div class="col-lg-3"></div>
+
+ </div>
+
+ <div class="row border3">
+  <div class="col-lg-1"></div>
+
+   <div class="col-lg-5 col-md-6 col-12 ">
+    <span class="back">PRO BUSINESS</span>
+    <h2>Get new freelance design opportunities daily</h2>
+    <p class="font20">
+      Want high quality leads delivered straight to your inbox, every single day?
+    </p>
+    <p class="font20">
+      With your Dribbble Pro subscription you can unlock new opportunities with our <a href="https://www.dribbble.com/projects?utm_source=pro-landing&amp;utm_medium=text&amp;utm_campaign=&amp;utm_content=freelance-design-jobs-3&amp;utm_term=">daily freelance design jobs newsletter</a>.
+    </p>
+    <p class="font20">
+      If you or your team need to browse for new leads also get access to our exclusive <a href="https://www.dribbble.com/projects?utm_source=pro-landing&amp;utm_medium=text&amp;utm_campaign=&amp;utm_content=freelance-design-jobs-4&amp;utm_term=">freelance design job board</a> for new opportunities.
+    </p>
+</div>
+   <div class="col-lg-6 col-md-6 col-12">
+    <img src="assest/new-opportunities@1x-ce12bbe298d34cb9fd19e5b6652ceab0888244a881be82080c87335bb038686e.jpg" class="rounded imgw" alt="">
+
+   </div>
+
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-6 col-md-6 col-12 backi">
+    <img src="assest/your-pitch@2x-dd9d15b5fe99b57ace9b99ac5fdc00094b86ccb6a9cd070bf458978d9f17f0e3.png" class="rounded imgw" alt="">
+
+ </div>
+   <div class="col-lg-5  col-md-6 col-12 " >
+    <span class="back">PRO BUSINESS</span>
+    <h2>A better way to introduce yourself to new clients</h2>
+    <p class="font20">
+      Exclusive to Pro Business subscribers, <a class="pink" href="/pro/pitch">Pitch</a> gives you a whole new way to introduce yourself to prospective clients right from your Dribbble profile with your very own personalized video. Also with our <strong>Calendly</strong> integration, clients can instantly schedule a call with you making it easier to connect with potential clients.
+    </p>
+    <p class="font20">
+      Plus, designers with Pitch videos on their profile are 2x more likely to be messaged by potential clients. Learn more about <a class="pink" href="/pro/pitch">Pitch</a> and how you can win more clients and get more opportunities!
+    </p>
+   </div>
+
+   <div class="col-lg-1"></div>
+
+ </div>
+
+ <div class="row border3">
+   <div class="col-lg-1"></div>
+   <div class="col-lg-5 col-md-6 col-12">
+    <span class="back font16">Pro Business</span>
+    <h2>Showcase your team &amp; build your brand</h2>
+    <p class="font20">
+      Have an agency or work on a team? Pro Business has you and all your team members covered.
+    </p>
+    <p class="font20">
+      Easily create a profile for your agency, add team members and post shots under your team account.
+    </p>
+    <p class="font20">
+      Your team also gets exclusive access to Dribbble's <a href="https://www.dribbble.com/projects?utm_source=pro-landing&amp;utm_medium=text&amp;utm_campaign=&amp;utm_content=freelance-design-jobs-5&amp;utm_term=">freelance design job board</a> so there are always leads for you and your team.
+    </p>
+   </div>
+
+   <div class="col-lg-6 col-md-6 col-12">
+    <img src="assest/showcase@1x-5a0c0313b23bc12fd3b544350baa551a259f9adf46d293305ddb02d708dc5678.jpg" class="rounded imgw" alt="">
+
+   </div>
+
+ </div>
+
+ <div class="row border3">
+<div class="col-lg-4 col-md-4"></div>
+
+  <div class="col-lg-4 text col-md-4 col-12 ">
+    <p class="text"><b>“My site traffic and phone calls have dramatically increased since I began using Dribbble as a <br> big part of my portfolio. It’s easy for me to update.”</b></p>
+    <div class="media mediapadd text">
+      <img src="assest/David_Stewart@1x-7503b2f233eb4203a42aa59f3d04a0567fcbb7dc0d6ae1c379e47dc97a14f510.png" alt="" width="56px" height="56px">
+      <div class="media-body text">
+        <h4>David Stewart</h4>
+        <p>UX Designer</p>      
+      </div>
+    </div>
+    <button type="button" class="btn but"><b>Learn More</b></button>
+
+
+  </div>
+
+    <div class="col-lg-4 col-md-4 ">
+     
+    </div>
+
+
+
+ </div>
+
+ <div class="row">
+   <div class="col-lg-12 col-md-12 col-12 text">
+    <h2>Dribbble is the heart of the design community</h2>
+    <p>No matter your discipline, Dribbble's got you covered for your unique career.</p>
+   </div>
+ </div>
+
+ <div class="row">
+   <div class="col-lg-12 col-md-12 col-12 text">
+    <h2>Unlock even more benefits with Dribbble</h2>
+   </div>
+ </div>
+ 
+ <div class="row bor4">
+   <div class="col-lg-4 col-md-4 col-6">
+    <div >
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<path d="M55.5 55.0874H5.5C2.75 55.0874 0.5 52.8374 0.5 50.0874V10.0874C0.5 7.3374 2.75 5.0874 5.5 5.0874H55.5C58.25 5.0874 60.5 7.3374 60.5 10.0874V50.0874C60.5 52.8874 58.25 55.0874 55.5 55.0874Z" fill="#787EFF"></path>
+<path d="M41.5 29.8374L25.375 39.1472L25.375 20.5276L41.5 29.8374Z" fill="white"></path>
+</svg>
+
+      <h4>Video</h4>
+      <p>Stand out and catch your next clients <br>attention with video content.</p>
+    </div> 
+  </div>
+   <div class="col-lg-4 col-md-4 col-6">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<path d="M44.4484 32.1107H2.59993C1.44997 32.1107 0.5 31.1615 0.5 30.0125V2.18565C0.5 1.03661 1.44997 0.0874023 2.59993 0.0874023H44.4484C45.5983 0.0874023 46.5483 1.03661 46.5483 2.18565V30.0125C46.5483 31.1615 45.5983 32.1107 44.4484 32.1107Z" fill="#ED7EA6"></path>
+<path d="M28.1986 8.83033C26.2487 8.6305 24.9987 9.52975 23.5488 11.0785C21.9988 9.52975 20.8489 8.6305 18.8989 8.83033C16.249 9.13008 14.1491 12.1276 14.5991 14.7754C15.2991 19.0218 19.0489 21.5198 23.5488 23.7679C28.0486 21.5198 31.7485 19.0218 32.4984 14.7754C32.9484 12.1276 30.8485 9.08012 28.1986 8.83033Z" fill="white"></path>
+<path d="M52.5983 18.1226H49.0485V30.0126C49.0485 32.5605 46.9985 34.6088 44.4486 34.6088H40.6488C39.0988 36.807 36.4989 38.4556 33.549 39.9544C30.5991 38.4556 27.9492 36.8569 26.4493 34.6088H12.5498V46.1492C12.5498 47.1983 13.3998 48.0976 14.4997 48.0976H52.6483C53.6983 48.0976 54.5982 47.2483 54.5982 46.1492V20.021C54.5483 18.9718 53.6983 18.1226 52.5983 18.1226Z" fill="#787EFF"></path>
+<path d="M58.7474 32.1108H57.0475V46.1491C57.0475 48.5971 55.0476 50.5954 52.5976 50.5954H20.5488V58.289C20.5488 59.2882 21.3488 60.0875 22.3488 60.0875H58.6974C59.6974 60.0875 60.4973 59.2882 60.4973 58.289V33.9593C60.5473 32.9102 59.7474 32.1108 58.7474 32.1108Z" fill="#FEBA57"></path>
+</svg>
+
+      <h4>Multi-Shot</h4>
+      <p>Show your design depth by grouping your<br> work into multi-shots.</p>
+    </div>   
+  </div>
+   <div class="col-lg-4 col-md-4 col-6"> 
+    <div >
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<path d="M30.5 60.0874C47.0685 60.0874 60.5 46.6559 60.5 30.0874C60.5 13.5189 47.0685 0.0874023 30.5 0.0874023C13.9315 0.0874023 0.5 13.5189 0.5 30.0874C0.5 46.6559 13.9315 60.0874 30.5 60.0874Z" fill="#FEBA57"></path>
+<path d="M0.549805 28.0874H60.3998C59.3998 12.4374 46.3998 0.0874023 30.4998 0.0874023C14.5998 0.0874023 1.5998 12.4374 0.549805 28.0874Z" fill="#ED7EA6"></path>
+<path d="M30.5 28.0874H50.5C50.5 22.5874 46 18.0874 40.5 18.0874C35 18.0874 30.5 22.5874 30.5 28.0874Z" fill="#4F3CC9"></path>
+<path d="M30.5 29.0375L44.65 43.1875C48.55 39.2875 48.55 32.9375 44.65 29.0375C40.75 25.1375 34.4 25.0875 30.5 29.0375Z" fill="#4F3CC9"></path>
+<path d="M30.4998 29.0375L16.3498 43.1875C12.4498 39.2875 12.4498 32.9375 16.3498 29.0375C20.2498 25.1375 26.5998 25.0875 30.4998 29.0375Z" fill="#4F3CC9"></path>
+<path d="M10.5 28.0874H30.5C30.5 22.5874 26 18.0874 20.5 18.0874C15 18.0874 10.5 22.5874 10.5 28.0874Z" fill="#4F3CC9"></path>
+<path d="M26.5 12.0874V28.0874C30.9 28.0874 34.5 24.4874 34.5 20.0874C34.5 15.6874 30.9 12.0874 26.5 12.0874Z" fill="#4F3CC9"></path>
+<path d="M26.6504 59.8374C27.9004 59.9874 29.2004 60.0874 30.5004 60.0874C31.8004 60.0874 33.1004 59.9874 34.3504 59.8374L32.5004 28.0874H28.5004L26.6504 59.8374Z" fill="#4F3CC9"></path>
+</svg>
+
+      <h4>Ad Free</h4>
+      <p>All design all the time! Turn off <br>ads across Dribbble.</p>
+    </div>
+   </div>
+
+ </div>
+ <div class="row bor4">
+   <div class="col-lg-4 col-md-4 col-6">
+    <div class="">
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<g clip-path="url(#clip0)">
+<path d="M31.8642 0.837425L36.532 9.03743C36.9516 9.73743 37.7908 9.98743 38.5775 9.68743L47.4411 5.68743C48.5425 5.18743 49.8013 6.03743 49.6439 7.23743L48.3852 16.4874C48.2803 17.2874 48.8047 17.9874 49.6439 18.1374L59.2418 19.8374C60.4481 20.0374 60.9201 21.4374 60.081 22.2874L53.3677 29.0874C52.7908 29.6374 52.7908 30.5374 53.3677 31.1374L60.081 37.9374C60.9201 38.7874 60.4481 40.1874 59.2418 40.3874L49.6439 42.0874C48.8572 42.2374 48.2803 42.9374 48.3852 43.7374L49.6439 52.9874C49.8013 54.1374 48.5425 55.0374 47.4411 54.5374L38.5775 50.5374C37.8432 50.1874 36.9516 50.4874 36.532 51.1874L31.8642 59.3874C31.2873 60.4374 29.7138 60.4374 29.1369 59.3874L24.4691 51.1874C24.0495 50.4874 23.2103 50.2374 22.4236 50.5374L13.56 54.5374C12.4586 55.0374 11.1999 54.1874 11.3572 52.9874L12.6159 43.7374C12.7208 42.9374 12.1964 42.2374 11.3572 42.0874L1.75929 40.3374C0.552997 40.1374 0.0809686 38.7374 0.92013 37.8874L7.63342 31.0874C8.21034 30.5374 8.21034 29.6374 7.63342 29.0374L0.92013 22.2874C0.0809686 21.4374 0.552997 20.0374 1.75929 19.8374L11.4096 18.0874C12.1964 17.9374 12.7733 17.2374 12.6684 16.4374L11.4096 7.18743C11.2523 6.03743 12.511 5.13743 13.6124 5.63743L22.4761 9.63743C23.2103 9.98743 24.1019 9.68743 24.5215 8.98743L29.1894 0.787425C29.7138 -0.162575 31.2873 -0.162575 31.8642 0.837425Z" fill="#FEBA57"></path>
+<path d="M37.7406 20.237L20.0137 37.1367L23.0547 40.0358L40.7816 23.1361L37.7406 20.237Z" fill="white"></path>
+<path d="M23.1576 26.0874C24.8956 26.0874 26.3044 24.7443 26.3044 23.0874C26.3044 21.4305 24.8956 20.0874 23.1576 20.0874C21.4196 20.0874 20.0107 21.4305 20.0107 23.0874C20.0107 24.7443 21.4196 26.0874 23.1576 26.0874Z" fill="white"></path>
+<path d="M37.8431 40.0874C39.5811 40.0874 40.99 38.7443 40.99 37.0874C40.99 35.4305 39.5811 34.0874 37.8431 34.0874C36.1052 34.0874 34.6963 35.4305 34.6963 37.0874C34.6963 38.7443 36.1052 40.0874 37.8431 40.0874Z" fill="white"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="60" height="60" fill="white" transform="translate(0.5 0.0874023)"></rect>
+</clipPath>
+</defs>
+</svg>
+
+      <h4>Exclusive Deals</h4>
+      <p>Save money on design services you'll<br> love with these hand picked deals.</p>
+    </div>
+   </div>
+   <div class="col-lg-4 col-md-4 col-6">
+    <div >
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 30.0874C0.5 13.5374 13.95 0.0874023 30.5 0.0874023C47.05 0.0874023 60.5 13.5374 60.5 30.0874C60.5 46.6374 47.05 60.0874 30.5 60.0874H0.5V30.0874ZM32.1346 43.7602V48.4246H29.5831V43.7602C22.5664 43.3216 18.7392 39.7735 18.5 34.3914H24.9983C25.3173 36.903 26.7924 38.418 29.5831 38.8166V31.4811L29.4236 31.4412C23.8023 30.006 19.3771 28.7701 19.3771 22.8698C19.3771 17.7269 23.8023 14.9761 29.5831 14.697V11.5874H32.1346V14.7768C37.9552 15.2153 41.5432 18.1256 41.8621 23.0691H35.7226C35.4435 21.1954 34.2076 19.9994 32.1346 19.6007V26.2984L32.6528 26.418C38.1944 27.7735 42.5 29.408 42.5 35.0691C42.5 40.4911 38.0748 43.4811 32.1346 43.7602ZM32.1346 38.8166C34.2475 38.5376 36.0017 37.4213 36.0017 35.4678C36.0017 33.6339 34.686 32.9163 32.1346 32.1588V38.8166ZM29.5831 19.4811C27.191 19.7203 25.8355 20.9163 25.8355 22.5509C25.8355 24.1854 26.9518 24.903 29.5831 25.6206V19.4811Z" fill="#4DB7C6"></path>
+</svg>
+
+      <h4>Sell your goods</h4>
+      <p>Give your design assets center stage and link to <br>your preferred e-commerce platform <br>from our 'Goods for sale' content.</p>
+    </div>
+   </div>
+   <div class="col-lg-4 col-md-4 col-6">
+    <div >
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<path d="M0.739731 36.8275L30.7249 0.47192C31.3246 -0.293997 32.574 0.165553 32.574 1.13572V18.9561C32.574 20.4368 33.7234 21.6112 35.1727 21.6112H59.4607C60.3602 21.6112 60.81 22.6835 60.2603 23.3473L30.2751 59.7029C29.6754 60.4688 28.426 60.0092 28.426 59.0391V41.2698C28.426 39.789 27.2766 38.6146 25.8273 38.6146H1.53934C0.639783 38.6146 0.190003 37.5423 0.739731 36.8275Z" fill="#FEBA57"></path>
+<path d="M47.117 15.2287C50.5671 15.2287 53.3639 12.3711 53.3639 8.84603C53.3639 5.32099 50.5671 2.46338 47.117 2.46338C43.667 2.46338 40.8701 5.32099 40.8701 8.84603C40.8701 12.3711 43.667 15.2287 47.117 15.2287Z" fill="#4DB7C6"></path>
+<path d="M12.7333 44.4356L7.33602 53.984C6.93622 54.6988 7.43597 55.5669 8.23557 55.5669H19.0302C19.8298 55.5669 20.3296 54.6988 19.9298 53.984L14.5325 44.4356C14.1327 43.7207 13.1331 43.7207 12.7333 44.4356Z" fill="#ED7EA6"></path>
+</svg>
+
+      <h4>Instant Creative Portfolio</h4>
+      <p>Make an effortless impact with Dribbble's done-for-you <br> instant portfolio on a custom domain.</p>
+    </div>
+   </div>
+
+ </div>
+
+ <div class="row bor4">
+  <div class="col-lg-4 col-md-4 col-6">
+    <div >
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<path d="M49.4911 14.0874L55.4961 14.0874L55.4961 10.2374C55.4961 9.03736 54.4953 8.0874 53.3443 8.0874L49.4911 8.0874L49.4911 14.0874Z" fill="#787EFF"></path>
+<path d="M5.49988 10.2394L5.49988 14.0894L11.5049 14.0894L11.5049 8.08936L7.65167 8.08936C6.50072 8.03935 5.49988 9.03938 5.49988 10.2394Z" fill="#787EFF"></path>
+<path d="M49.4902 1.78741C49.4902 0.837415 48.7396 0.0874023 47.7888 0.0874022L13.16 0.0873992C12.2092 0.0873991 11.4585 0.837411 11.4585 1.78741L11.4585 4.0874L49.4902 4.0874L49.4902 1.78741Z" fill="#FEBA57"></path>
+<path d="M11.4585 14.0874L49.4902 14.0874L49.4902 8.0874L11.4585 8.0874L11.4585 14.0874Z" fill="#787EFF"></path>
+<rect x="0.5" y="18.0874" width="60" height="42" rx="6" fill="#ED7EA6"></rect>
+<path d="M12.863 43.9154H15.073V34.2434H12.863V37.9744H9.21V34.2434H7V43.9154H9.21V39.8204H12.863V43.9154Z" fill="white"></path>
+<path d="M17.5959 34.0874C16.9589 34.0874 16.4779 34.5684 16.4779 35.1924C16.4779 35.8164 16.9589 36.2974 17.5959 36.2974C18.2329 36.2974 18.7139 35.8164 18.7139 35.1924C18.7139 34.5684 18.2329 34.0874 17.5959 34.0874ZM16.5689 43.9154H18.6099V36.9994H16.5689V43.9154Z" fill="white"></path>
+<path d="M21.9996 40.7044C21.9996 39.3524 22.7276 38.6634 23.8326 38.6764C23.9756 38.6764 24.1186 38.6894 24.2616 38.7154H24.3136V36.9344C24.2226 36.8954 24.0796 36.8824 23.8846 36.8824C23.0266 36.8824 22.4026 37.2724 21.9606 38.2344H21.9216V36.9994H19.9586V43.9154H21.9996V40.7044Z" fill="white"></path>
+<path d="M28.3876 38.2474C29.1936 38.2474 29.7396 38.8324 29.8046 39.7944H26.8536C26.9966 38.8454 27.4646 38.2474 28.3876 38.2474ZM31.7546 41.9654H29.7786C29.5576 42.3944 29.1546 42.6414 28.5176 42.6414C27.5296 42.6414 26.9706 42.0044 26.8406 40.9774H31.8846C31.8976 39.6124 31.5466 38.4424 30.7666 37.6884C30.1556 37.1294 29.3756 36.8044 28.3876 36.8044C26.2816 36.8044 24.8386 38.3904 24.8386 40.4704C24.8386 42.5374 26.2296 44.1234 28.4916 44.1234C30.2726 44.1234 31.4036 43.1874 31.7546 41.9654Z" fill="white"></path>
+<path d="M36.1865 43.9154H38.1755V39.5864C38.1755 38.3644 38.0195 36.1024 38.0195 36.1024H38.0455C38.0455 36.1024 38.4615 38.1694 38.7995 39.3134L40.1905 43.9154H42.0105L43.3885 39.3134C43.7265 38.1694 44.1425 36.1024 44.1425 36.1024H44.1685C44.1685 36.1024 44.0125 38.3644 44.0125 39.5864V43.9154H46.0535V34.2434H43.0375L41.8545 38.2734C41.5035 39.4824 41.1395 41.7184 41.1395 41.7184H41.1005C41.1005 41.7184 40.7235 39.4824 40.3725 38.2734L39.1635 34.2434H36.1865V43.9154Z" fill="white"></path>
+<path d="M50.7568 38.2474C51.5628 38.2474 52.1088 38.8324 52.1738 39.7944H49.2228C49.3658 38.8454 49.8338 38.2474 50.7568 38.2474ZM54.1238 41.9654H52.1478C51.9268 42.3944 51.5238 42.6414 50.8868 42.6414C49.8988 42.6414 49.3398 42.0044 49.2098 40.9774H54.2538C54.2668 39.6124 53.9158 38.4424 53.1358 37.6884C52.5248 37.1294 51.7448 36.8044 50.7568 36.8044C48.6508 36.8044 47.2078 38.3904 47.2078 40.4704C47.2078 42.5374 48.5988 44.1234 50.8608 44.1234C52.6418 44.1234 53.7728 43.1874 54.1238 41.9654Z" fill="white"></path>
+</svg>
+
+      <h4>Hire me button</h4>
+      <p>Being contacted for work couldn't be <br>easier with Hiring buttons on <br>your profile and all your shots.</p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-6">
+    <div >
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<g clip-path="url(#clip0)">
+<path d="M16.5 44.0874H0.5V60.0874H16.5V44.0874Z" fill="#4DB7C6"></path>
+<path d="M8.5 44.0874C12.9183 44.0874 16.5 40.5057 16.5 36.0874C16.5 31.6691 12.9183 28.0874 8.5 28.0874C4.08172 28.0874 0.5 31.6691 0.5 36.0874C0.5 40.5057 4.08172 44.0874 8.5 44.0874Z" fill="#FEBA57"></path>
+<path d="M52.5 16.0874C56.9183 16.0874 60.5 12.5057 60.5 8.0874C60.5 3.66912 56.9183 0.0874023 52.5 0.0874023C48.0817 0.0874023 44.5 3.66912 44.5 8.0874C44.5 12.5057 48.0817 16.0874 52.5 16.0874Z" fill="#4DB7C6"></path>
+<path d="M54.5 32.0874H50.5C47.2 32.0874 44.5 29.3874 44.5 26.0874V22.0874C44.5 18.7874 47.2 16.0874 50.5 16.0874H54.5C57.8 16.0874 60.5 18.7874 60.5 22.0874V26.0874C60.5 29.3874 57.8 32.0874 54.5 32.0874Z" fill="#FEBA57"></path>
+<path d="M32.5 32.0874H28.5C25.2 32.0874 22.5 29.3874 22.5 26.0874V22.0874C22.5 18.7874 25.2 16.0874 28.5 16.0874H32.5C35.8 16.0874 38.5 18.7874 38.5 22.0874V26.0874C38.5 29.3874 35.8 32.0874 32.5 32.0874Z" fill="#ED7EA6"></path>
+<path d="M38.5 32.0874H26.5C24.3 32.0874 22.5 33.8874 22.5 36.0874V56.0874C22.5 58.2874 24.3 60.0874 26.5 60.0874H38.5V32.0874Z" fill="#787EFF"></path>
+<path d="M56.5 32.0874H44.5V60.0874H56.5C58.7 60.0874 60.5 58.2874 60.5 56.0874V36.0874C60.5 33.8874 58.7 32.0874 56.5 32.0874Z" fill="#787EFF"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="60" height="60" fill="white" transform="translate(0.5 0.0874023)"></rect>
+</clipPath>
+</defs>
+</svg>
+
+      <h4>Advanced Profile Statistics</h4>
+      <p>Uncover what people appreciate in<br> your work with our in-depth <br>statistics - then give it to them!</p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-6">
+    <div >
+      <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none" class="icon">
+<g clip-path="url(#clip0)">
+<path d="M58.8999 33.3373L19.1499 43.9873C17.9999 44.2873 16.8499 43.6373 16.5499 42.4873L8.94988 14.0373C8.64988 12.8873 9.29988 11.7373 10.4499 11.4373L50.1999 0.787287C51.3499 0.487287 52.4999 1.13729 52.7999 2.28729L60.3999 30.6873C60.6999 31.8373 60.0499 33.0373 58.8999 33.3373Z" fill="#FEBA57"></path>
+<path d="M18.5 60.0874C28.4411 60.0874 36.5 52.0285 36.5 42.0874C36.5 32.1463 28.4411 24.0874 18.5 24.0874C8.55887 24.0874 0.5 32.1463 0.5 42.0874C0.5 52.0285 8.55887 60.0874 18.5 60.0874Z" fill="#787EFF"></path>
+<path d="M4.5 8.0874C6.70914 8.0874 8.5 6.29654 8.5 4.0874C8.5 1.87826 6.70914 0.0874023 4.5 0.0874023C2.29086 0.0874023 0.5 1.87826 0.5 4.0874C0.5 6.29654 2.29086 8.0874 4.5 8.0874Z" fill="#ED7EA6"></path>
+<path d="M53.4502 60.0874C57.3162 60.0874 60.4502 56.9534 60.4502 53.0874C60.4502 49.2214 57.3162 46.0874 53.4502 46.0874C49.5842 46.0874 46.4502 49.2214 46.4502 53.0874C46.4502 56.9534 49.5842 60.0874 53.4502 60.0874Z" fill="#ED7EA6"></path>
+<path d="M15.4004 30.4873L18.2504 41.1373C18.4004 41.6873 18.9504 41.9873 19.4504 41.8373L28.1504 39.4873" stroke="white" stroke-width="7" stroke-miterlimit="10" stroke-linecap="round"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="60" height="60" fill="white" transform="translate(0.5 0.0874023)"></rect>
+</clipPath>
+</defs>
+</svg>
+
+      <h4>Shot Scheduling</h4>
+      <p>Timing is everything. Set your work <br>to automatically upload when <br>it can have the biggest impact.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row border3">
+  <div class="col-lg-12 col-md-12 col-12 text">
+    <h2>Level up your design career with Dribbble Pro</h2>
+    <p>
+      Whether you're looking to build your portfolio, find your next freelance client or showcase your teams work -- we have a plan for you.
+    </p>
+  </div>
+</div>
+
+<div class="row border3">
+  <div class="col-lg-3"></div>
+  <div class="col-lg-3 col-md-12 col-12 ">
+   <div class="card cwidth" >
+     <h4 class="text">Pro</h4>
+     <p class="text">Upgrade your social portfolio with <br>a stunning profile &amp; enhanced shots.</p>
+     <h1 class="text">₹227</h1>
+     <p class="text">$3 USD per month, paid annually</p>
+     <p class="tecol">Switch to monthly billing</p>
+     <button type="button" class="btn-box">Get Started</button>
+     
+     <li>
+       <span>Upgraded profile</span>
+     </li>
+     <li >
+       <span>Multi-shot &amp; video</span>
+     </li>
+     <li>
+       <span>Instant creative portfolio</span>
+     </li>
+     <li>
+       <span>Sell goods</span>
+     </li>
+   </div>
+   
+  </div>
+  <div class="col-lg-6 col-md-12 col-12">
+   <div class="card cwidth" >
+     <h4 class="text">Pro Business</h4>
+     <p class="text">Perfect for freelancers, agencies, and <br> design teams.</p>
+     <h1 class="text">₹1199</h1>
+     <p class="text">$15 USD per month, paid annually</p>
+     <p class="tecol">Switch to monthly billing</p>
+     <button type="button" class="btn-box">Get Started</button>
+     
+     <li>
+       <span>Pro benefits plus</span>
+     </li>
+     <li >
+       <span>‘Hire me/us’ button on shots</span>
+     </li>
+     <li>
+       <span>Freelance job board exclusive</span>
+     </li>
+     <li>
+       <span>Daily freelance projects email</span>
+     </li>
+     <li>
+       <span>Team profile and members</span>
+     </li>
+     <li>
+       <span>Hiring search listing priority placement</span>
+     </li>
+     <li>
+       <span>Introduce yourself with Pitch video</span>
+     </li>
+   </div>
+ </div>
+</div>
+ 
+
+
+
+<div class="row bg2">
+  <div class="col-lg-2 col-md-12 col-12">
+    <h4 class="hcol">Deibbble</h4>
+    <p>Dribbble is the world’s leading community for creatives to share, grow, and get hired.</p>
+    <i class="fa fa-facebook-square st" ></i>
+    <i class="fa fa-dribbble-square st" ></i>
+    <i class="fa fa-twitter-square st" ></i>
+    <i class="fa fa-instagram st" ></i>
+    <i class="fa fa-dribbble st" ></i>
+
+    <i class="fa fa-pinterest st"></i>
+
+    
+  </div>
+  <div class="col-lg-2 col-md-3 col-6">
+    <h5 class="font16"><b> For designers</b></h5>
+    <li class="font14">Go pro !</li>
+    <li class="font14">Explore Design Work</li>
+    <li class="font14" >Design blog</li>
+    <li class="font14">Overtime Podcast</li>
+    <li class="font14"> Dribble meetups</li>
+    <li class="font14">Playoffs</li>
+    <li class="font14">Weekly Warm up</li>
+    <li class="font14"> Code of conduct</li>
+
+
+  </div>
+  <div class="col-lg-2 col-md-2 col-6">
+    <h5 class="font16"><b>Hair designers</b></h5>
+    <li class="font14">Post a job Opening</li>
+    <li class="font14">Post a Freelance Project</li>
+    <li class="font14" >Design blog</li>
+    <li class="font14">Search for Designer</li>
+    <li class="font14"> <b>Brands</b></li>
+    <li class="font14">Advertise with us</li>
+   
+  </div>
+  <div class="col-lg-2 col-md-2 col-6">
+    <h5 class="font16"><b>Company</b></h5>
+    <li class="font14">about</li>
+    <li class="font14">Careers</li>
+    <li class="font14" >Support</li>
+    <li class="font14">Media kit</li>
+    <li class="font14"> Testimonials</li>
+    <li class="font14">Api</li>
+    <li class="font14"> Terms of service</li>
+    <li class="font14">Privacy policy</li>
+  </div>
+  <div class="col-lg-2 col-md-2 col-6">
+    <h5 class="font16"><b>Directories</b></h5>
+    <li class="font14">Design jobs</li>
+    <li class="font14">Designer for hire</li>
+    <li class="font14" >Freelance designer <br> for hire</li>
+    <li class="font14">Tages</li>
+    <li class="font14"> Places</li>
+    <li class="font14"><b>Design assest</b></li>
+    <li class="font14"> Shop Creative Market</li>
+  </div>
+  <div class="col-lg-2 col-md-2 col-12">
+    <h5 class="font16"><b>Design Resources</b></h5>
+    <li class="font14">Freelancing</li>
+    <li class="font14">Design Hiring</li>
+  </div>
+</div>
+<div class="row bg3">
+  <div class="col-lg-4 col-md-12 col-12">
+    © 2021 Dribbble. All rights reserved.
+ </div>
+ <div class="col-lg-5"></div>
+ <div class="col-lg-3 col-md-12 col-12">17,045,671 shots dribbbled
+  <i class="fa fa-dribbble st" ></i>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

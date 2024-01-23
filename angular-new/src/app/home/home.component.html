@@ -1,0 +1,28 @@
+<div class="container">
+<h1 class="text-center">Reactive Form</h1>
+<form [formGroup]="RegForm">
+    <input type="text" placeholder="UserName" formControlName='userName'[ngClass]="{'is-invalid': subButton && f['userName'].errors}" /><br>
+    <div *ngIf="subButton && f['userName'].errors" class="invalid-feedback">
+        <div *ngIf="f['userName'].errors['required']">
+            Please enter some name
+        </div>
+    </div>
+    <input type="password" placeholder="password" formControlName='password'[ngClass]="{'is-invalid': subButton && f['password'].errors}"/>
+    <div *ngIf="subButton && f['password'].errors" class="invalid-feedback">
+        Please enter password
+       </div>
+<br>
+        <input type="radio"  value="Male" formControlName="gender" [ngClass]="{'is-invalid': subButton && f['gender'].errors}">Male
+
+      <br>
+        <input type="radio"  value="Female" formControlName="gender">Female <br>
+        <div *ngIf="subButton && f['gender'].errors" class="invalid-feedback"> Gender is required</div>
+      <input type="checkbox" formControlName="checkbox" [ngClass]="{'is-invalis': subButton && f['checkbox'].errors}">Remember me <br>
+      <div *ngIf="subButton && f['checkbox'].errors" class="invalid-feedback"> checkbox is required</div>
+
+
+
+<button class="btn btn-primary" (click)="subFun()">submit</button>
+</form>
+
+</div>
